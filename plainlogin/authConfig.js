@@ -16,7 +16,7 @@ const msalConfig = {
         
         // Replace with the redirect uri you setup on AAD Portal.
         // example redirectUri: "https://core.jannehansen.com/spa/plainlogin"
-        redirectUri: "https://brave-bush-0fa615610.azurestaticapps.net/"
+        redirectUri: "https://brave-bush-0fa615610.azurestaticapps.net/plainlogin"
 
     },
     cache: {
