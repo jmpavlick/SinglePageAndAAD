@@ -6,18 +6,18 @@ const msalConfig = {
     auth: {
 
         // Replace with your app/client ID on AAD Portal.
-        clientId: "Enter_the_Application_Id_Here",
+        clientId: "3e4f2f51-2c94-410a-ab81-e695e8cff45b",
 
         // Replace with "https://login.microsoftonline.com/common/" 
         // Note: This is for multi-tenant applications located on the global Azure cloud. 
         // For more information, see the documentation 
         // https://docs.microsoft.com/azure/active-directory/develop/quickstart-v2-javascript-auth-code.
-        authority: "Enter_the_Cloud_Instance_Id_HereEnter_the_Tenant_Info_Here",
+        authority: "https://login.microsoftonline.com/61f0b886-8759-40ba-9987-299b74240718",
         
         // Replace with the redirect uri you setup on AAD Portal.
-        // example redirectUri: "https://core.jannehansen.com/spa/functioncall"
-        redirectUri: "Enter_the_Redirect_Uri_Here"
-        
+        // example redirectUri: "https://core.jannehansen.com/spa/plainlogin"
+        redirectUri: "https://brave-bush-0fa615610.azurestaticapps.net/functioncall"
+
     },
     cache: {
         cacheLocation: "localStorage", // This configures where your cache will be stored
