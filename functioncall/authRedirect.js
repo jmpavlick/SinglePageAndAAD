@@ -76,7 +76,7 @@ function getTokenRedirect(request) {
 // This is the scope used for function call
 // Change this to match your own!
 const functionCallRequest = {
-    scopes: ["https://spafunctionappdemobackend.azurewebsites.net/user_impersonation"]
+    scopes: ["api://6b57e70b-e1ca-41c7-ba77-44264d33ee84/user_impersonation"]
 };
 
 function getMyFunctionData() {
@@ -100,7 +100,7 @@ function callMyFunction(accessToken) {
     }
 
     // My function endpoint. Change to match yours!
-    xmlHttp.open("GET", "https://spafunctionappdemobackend.azurewebsites.net/api/function1", true); // true for asynchronous
+    xmlHttp.open("GET", "https://spafunctionappdemobackend.azurewebsites.net/api/function1", false); // true for asynchronous
     xmlHttp.setRequestHeader('Authorization', 'Bearer ' + accessToken);
     xmlHttp.send();
 }
