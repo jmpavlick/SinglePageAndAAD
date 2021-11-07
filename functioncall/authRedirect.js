@@ -76,7 +76,7 @@ function getTokenRedirect(request) {
 // This is the scope used for function call
 // Change this to match your own!
 const functionCallRequest = {
-    scopes: ["api://6b57e70b-e1ca-41c7-ba77-44264d33ee84/user_impersonation"]
+    scopes: ["api://181592f0-ff49-4d77-b317-717ef9dc94c7/user_impersonation"]
 };
 
 function getMyFunctionData() {

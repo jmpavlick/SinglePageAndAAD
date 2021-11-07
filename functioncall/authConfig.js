@@ -6,7 +6,7 @@ const msalConfig = {
     auth: {
 
         // Replace with your app/client ID on AAD Portal.
-        clientId: "3e4f2f51-2c94-410a-ab81-e695e8cff45b",
+        clientId: "181592f0-ff49-4d77-b317-717ef9dc94c7`",
 
         // Replace with "https://login.microsoftonline.com/common/" 
         // Note: This is for multi-tenant applications located on the global Azure cloud. 
